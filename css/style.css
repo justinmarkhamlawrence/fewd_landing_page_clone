@@ -5,7 +5,7 @@ div{
 	border: 1px solid Chocolate;
 }
 /* Navigation Section */
-top-navigation{
+.top-navigation{
 	background-color: #fff;
 	/*position: fixed;
 	width: 100%;
@@ -17,6 +17,19 @@ top-navigation{
 	 height: 70px;
 	 margin: 0 auto;
 }
+/*.top-navigation .logo{
+	height: 4.375rem;
+}*/
+/*img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}*/
+
 /*nav{
 	display: block;
 	margin: 0;
