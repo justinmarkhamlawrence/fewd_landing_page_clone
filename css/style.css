@@ -11,28 +11,28 @@ html {
 body{
 	background-color: LightGray;
 }
-div{
+div {
 	border: 1px solid Chocolate;
 }
 /* Navigation Section */
-.top-navigation{
+.top-navigation {
 	background-color: #fff;
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
 }
-.top-navigation > .content{
+.top-navigation > .content {
 	width: 970px;
 	 height: 70px;
 	 margin: 0 auto;
 	 padding: 0px 15px;
 }
-.logo{
+.logo {
 	width: 26px;
 	margin-top: 14px; 
 	height: 38px;
 }
-.top-navigation .links{
+.top-navigation .links {
 	float: right;
 	font-family: 'Roboto' , sans-serif;
 	color: #838994;
@@ -53,7 +53,7 @@ div{
 	cursor: pointer;
 	color: #333333;
 }
-.introduction{
+.introduction {
 	background-image: url(images/intro-background);
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -61,7 +61,7 @@ div{
 	height: 45.938rem;
 	overflow: auto;
 }
-.introduction .content{
+.introduction .content {
 	padding-top: 0;  
 	padding-right: 0.938rem;
 	padding-bottom: 0;
@@ -85,7 +85,7 @@ div{
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
 }
-.introduction .buttons{
+.introduction .buttons {
 	color: white;
 	text-align: center;
 
@@ -105,17 +105,72 @@ button:hover {
 	cursor: pointer;
 	background-color: #d9400e;
 }
-.cases .content{
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+.cases .content { 
 	margin-top: 7.875rem;
 	color: #1d1e21;
 	text-align: center;
 }
-.cases .devices > li{
+.cases .devices > li {
 	width: 33.3333333%;
 	float: left;
-	/*display: inline-block;*/
-	/* styles to assist with debugging*/
-	border: 1px solid black;
-	box-sizing: border-box;
-	height: 4em;
+	/*padding-right: 1em;*/
+}
+.social {
+	background-color: fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+footer {
+	display: block;
+}
+.content {
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
+ul{
+	list-style: none;
+}
+.social{
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+.social .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+.social .copy {
+	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
+}
+.social .twitter {
+	color: #55acee;
+}
+.social .facebook {
+	color: #4c66a4;
+}
+.social .instagram{
+	color: #3f729b;
 }
